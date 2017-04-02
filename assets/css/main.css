@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
 body {
 	background: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
+/*-- Transparent navbar ---*/
 .transparent {
     border-width: 0px;
     -webkit-box-shadow: 0px 0px;
@@ -18,4 +22,37 @@ body {
 }
 .icasa_header .navbar-brand>img {
   padding: 7px 14px;
+}
+
+.navbar-brand span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+}
+.icasa_logo {
+	display:inline-block !important;
+	height: 39px;
+	margin: -13px 8px 0px -3px;
+}
+
+.header-content h1 {
+    font-weight: bold;
+}
+
+.header-content p {
+    font-size: 18px;
+}
+
+.header-content p > span {
+    font-weight: bold;
 }
