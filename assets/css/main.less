@@ -1,0 +1,87 @@
+@color_1: #000;
+@color_2: #f55685;
+@color_3: #fff;
+@font_roboto: 'Roboto', sans-serif;
+@transparent: rgba(0,0,0,0.0);
+
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700,900";
+/*-- Transparent navbar ---*/
+/* Logo with Text*/
+/*--- Programers blocks css ---*/
+body {
+	background: #fff;
+	font-family: @font_roboto;
+	font-weight: 400;
+}
+.transparent {
+	border-width: 0px;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	background-color: @transparent;
+	background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+	background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+.icasa_header {
+	.navbar-brand {
+		display: flex;
+		align-items: center;
+		>img {
+			padding: 7px 14px;
+		}
+	}
+}
+.navbar-brand {
+	span {
+		font-size: 30px;
+		font-weight: bold;
+	}
+}
+.navbar-default {
+	.navbar-nav {
+		>li {
+			>a {
+				color: @color_1 !important;
+				font-weight: bold;
+				text-transform: uppercase;
+				font-size: 14px;
+			}
+		}
+	}
+	.navbar-brand {
+		color: @color_1;
+	}
+}
+.icasa_logo {
+	display: inline-block !important;
+	height: 39px;
+	margin: -13px 8px 0px -3px;
+}
+.header-content {
+	h1 {
+		font-weight: bold;
+		font-size: 2.14em;
+	}
+	p {
+		font-size: 18px;
+		line-height: 30px;
+		>span {
+			font-weight: bold;
+		}
+	}
+	margin-top: 109px;
+	a.btn.btn-outline {
+		color: @color_2;
+	}
+}
+.btn.btn-outline {
+	border: 2px solid #f55685 !important;
+	border-radius: 30px;
+	height: 45px;
+	line-height: 32px;
+	width: 180px;
+}
+div#programers {
+	background: #5788e9;
+	color: @color_3;
+}
