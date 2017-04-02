@@ -47,12 +47,35 @@ body {
 
 .header-content h1 {
     font-weight: bold;
+    font-size: 2.14em;
 }
 
 .header-content p {
     font-size: 18px;
+    line-height: 30px;
 }
 
 .header-content p > span {
     font-weight: bold;
+}
+.header-content {
+    margin-top: 109px;
+}
+
+.btn.btn-outline {
+    border: 2px solid #f55685 !important;
+    border-radius: 30px;
+    height: 45px;
+    line-height: 32px;
+    width: 180px;
+}
+
+.header-content a.btn.btn-outline {
+    color: #f55685;
+}
+
+/*--- Programers blocks css ---*/
+div#programers {
+    background: #5788e9;
+    color: #fff;
 }
