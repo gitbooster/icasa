@@ -4,106 +4,120 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 }
+
+
 /*-- Transparent navbar ---*/
+
 .transparent {
-    border-width: 0px;
-    -webkit-box-shadow: 0px 0px;
-    box-shadow: 0px 0px;
-    background-color: rgba(0,0,0,0.0);
-    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+	border-width: 0px;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	background-color: rgba(0, 0, 0, 0.0);
+	background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0%, rgba(0, 0, 0, 0.00)), color-stop( 100%, rgba(0, 0, 0, 0.00)));
+	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
 }
 
+
 /* Logo with Text*/
+
 .icasa_header .navbar-brand {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
+
 .icasa_header .navbar-brand>img {
-  padding: 7px 14px;
+	padding: 7px 14px;
 }
 
 .navbar-brand span {
-    font-size: 30px;
-    font-weight: bold;
+	font-size: 30px;
+	font-weight: bold;
 }
 
-.navbar-default .navbar-nav > li > a {
-    color: #000 !important;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 14px;
+.navbar-default .navbar-nav> li> a {
+	color: #000 !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
 }
 
 .navbar-default .navbar-brand {
-    color: #000;
+	color: #000;
 }
+
 .icasa_logo {
-	display:inline-block !important;
+	display: inline-block !important;
 	height: 39px;
 	margin: -13px 8px 0px -3px;
 }
 
 .header-content h1 {
-    font-weight: bold;
-    font-size: 2.14em;
+	font-weight: bold;
+	font-size: 2.14em;
 }
 
 .header-content p {
-    font-size: 18px;
-    line-height: 30px;
+	font-size: 18px;
+	line-height: 30px;
 }
 
-.header-content p > span {
-    font-weight: bold;
+.header-content p> span {
+	font-weight: bold;
 }
+
 .header-content {
-    margin-top: 109px;
+	margin-top: 109px;
 }
 
 .btn.btn-outline {
-    border: 2px solid #f55685 !important;
-    border-radius: 30px;
-    height: 45px;
-    line-height: 32px;
-    width: 180px;
+	border: 2px solid #f55685 !important;
+	border-radius: 30px;
+	height: 45px;
+	line-height: 32px;
+	width: 180px;
 }
 
 .header-content a.btn.btn-outline {
-    color: #f55685;
+	color: #f55685;
 }
 
+
 /*--- Programers blocks css ---*/
+
 div#programers {
-    background: #5788e9;
-    color: #fff;
-    padding-bottom: 45px;
+	background: #5788e9;
+	color: #fff;
+	padding-bottom: 45px;
 }
 
 .caption.prog_info h3 {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .caption.prog_info p {
-    font-size: 14px;
+	font-size: 14px;
 }
-
 
 p.longuage_us {
-    font-size: 12px !important;
-    line-height: 0;
-    text-transform: uppercase;
+	font-size: 12px !important;
+	line-height: 0;
+	text-transform: uppercase;
 }
+
 .progr_avatar {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 .social_profile_prog {
-    margin-top: 20px;
+	margin-top: 20px;
 }
+
 h3.header_title {
-    margin: 45px 0px;
-    text-transform: uppercase;
-    font-weight: bold;
+	margin: 45px 0px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
+
+/*--- Contacts ---*/
+#success_message{ display: none;}

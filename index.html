@@ -157,8 +157,78 @@
             </div>
          </div>
       </div>
+      <div class="feedback" id="feedback">
+         <div class="container">
+            <h3 class="text-left header_title">Contact</h3>
+            <div class="row">
+               <div class="col-sm-6">
+                  <form class="form-horizontal" action=" " method="post"  id="contact_form">
+                     <fieldset>
+                        <!-- Text input-->
+                        <div class="form-group">
+                           <div class="col-md-12 inputGroupContainer">
+                              <div class="input-group">
+                                 <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                 <input  name="first_name" placeholder="Nume" class="form-control"  type="text">
+                              </div>
+                           </div>
+                        </div>
+                        
+                        <!-- Text input-->
+                        <div class="form-group">
+                           <div class="col-md-12 inputGroupContainer">
+                              <div class="input-group">
+                                 <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                 <input name="email" placeholder="E-Mail" class="form-control"  type="text">
+                              </div>
+                           </div>
+                        </div>
+                        
+                        <!-- Text area -->
+                        <div class="form-group">
+                           <div class="col-md-12 inputGroupContainer">
+                              <div class="input-group">
+                                 <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                 <textarea class="form-control" name="comment" placeholder="Mesaj"></textarea>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Success message -->
+                        <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+                        <!-- Button -->
+                        <div class="form-group">
+                           <label class="col-md-12 control-label"></label>
+                           <div class="col-md-4">
+                              <button type="submit" class="btn btn-warning" >Trimite Mesaj <span class="glyphicon glyphicon-send"></span></button>
+                           </div>
+                        </div>
+                     </fieldset>
+                  </form>
+               </div>
+               <div class="col-sm-6">
+                  <div class="thumbnail text-center">
+                     <div class="progr_avatar">
+                        <img src="assets/images/avatar_prog.png" alt="Andrei Cojocari" class="img-circle user_ava" />
+                     </div>
+                     <div class="caption prog_info">
+                        <h3>John Doe</h3>
+                        <p>SEO and SMM</p>
+                        <p class="longuage_us">VK OK ADSANCE INSTAGRAM</p>
+                        <div class="social_profile_prog">
+                           <a role="button" class="btn btn-default" href="#"><i class="fa fa-facebook"></i></a>
+                           <a role="button" class="btn btn-default" href="#"><i class="fa fa-github"></i></a>
+                           <a role="button" class="btn btn-default" href="#"><i class="fa fa-google-plus"></i></a>
+                           <a role="button" class="btn btn-default" href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="assets/js/bootstrap.min.js"></script>
       <script src="assets/js/main.js"></script>
