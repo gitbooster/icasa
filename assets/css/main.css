@@ -78,6 +78,7 @@ body {
 div#programers {
     background: #5788e9;
     color: #fff;
+    padding-bottom: 45px;
 }
 
 .caption.prog_info h3 {
@@ -92,4 +93,17 @@ div#programers {
 p.longuage_us {
     font-size: 12px !important;
     line-height: 0;
+    text-transform: uppercase;
+}
+.progr_avatar {
+    margin-top: 20px;
+}
+
+.social_profile_prog {
+    margin-top: 20px;
+}
+h3.header_title {
+    margin: 45px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
