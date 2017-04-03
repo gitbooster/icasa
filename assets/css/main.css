@@ -79,3 +79,17 @@ div#programers {
     background: #5788e9;
     color: #fff;
 }
+
+.caption.prog_info h3 {
+    font-weight: bold;
+}
+
+.caption.prog_info p {
+    font-size: 14px;
+}
+
+
+p.longuage_us {
+    font-size: 12px !important;
+    line-height: 0;
+}
