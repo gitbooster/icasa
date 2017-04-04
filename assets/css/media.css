@@ -3,5 +3,17 @@
 	margin-top: 25px;
     text-align: center;
 }
+footer  .text-left {
+text-align: center !important;
+}
+
+footer  .text-right {
+text-align: center !important;
+}
+
+footer .container {
+    line-height: 30px;
+    padding-top: 10px;
+}
 
 }

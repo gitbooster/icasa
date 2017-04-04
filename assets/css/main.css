@@ -121,3 +121,37 @@ h3.header_title {
 
 /*--- Contacts ---*/
 #success_message{ display: none;}
+h4.contact_header {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+span.contact_prefix {
+    font-weight: bold;
+    font-size: 14px;
+}
+div#feedback {
+    padding-bottom: 45px;
+}
+footer .container {
+    border-top: 1px solid #dfe2e5;
+    height: 70px;
+    line-height: 70px;
+}
+footer  p {
+    margin: 0;
+}
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    color: #555555;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #dfe3e9;
+    border-radius: 3px;
+}
+
+
