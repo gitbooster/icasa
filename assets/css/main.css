@@ -74,7 +74,7 @@ body {
 	border: 2px solid #f55685 !important;
 	border-radius: 30px;
 	height: 45px;
-	line-height: 32px;
+	line-height: 29px;
 	width: 180px;
 }
 
@@ -124,6 +124,7 @@ h3.header_title {
 h4.contact_header {
     font-size: 16px;
     font-weight: bold;
+    margin-top: 0;
 }
 
 span.contact_prefix {
@@ -147,7 +148,7 @@ footer  p {
     font-size: 14px;
     font-weight: normal;
     line-height: 1;
-    color: #555555;
+    color: #cccccc;
     text-align: center;
     background-color: #ffffff;
     border: 1px solid #dfe3e9;
@@ -155,3 +156,84 @@ footer  p {
 }
 
 
+input.form-control {
+    border-left: 0;
+}
+
+input.form-control {
+    border: 1px solid #dfe3e9;
+    box-shadow: none;
+    border-radius: 3px;
+    height: 41px !important;
+}
+
+.form-control-feedback {
+    top: 0;
+    right: 15px;
+}
+textarea.form-control {
+    border: 1px solid #dfe3e9;
+    box-shadow: none;
+    border-radius: 3px;
+    resize: vertical;
+}
+.form-control-feedback {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+}
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
+    color: #ed1c24;
+}
+.has-error .form-control {
+    border-color: #ed1c24;
+}
+.has-error .input-group-addon {
+    color: #ed1c24;
+    border-color: #ed1c24;
+    background-color: transparent;
+}
+.has-error .form-control-feedback {
+    color: #ed1c24;
+}
+
+.has-success .input-group-addon {
+    color: #1bb934;
+    border-color: #1bb934;
+    background-color: transparent;
+}
+.has-success .form-control {
+    border-color: #1bb934;
+}
+.has-success .form-control-feedback {
+    color: #1bb934;
+}
+.btn.btn-outline-contacts {
+    border: 2px solid #5788e9 !important;
+    border-radius: 30px;
+    height: 45px;
+    line-height: 29px;
+    width: 180px;
+    color: #5788e9;
+    font-weight: bold;
+    background: transparent;
+}
+.btn.btn-outline-contacts:hover {
+    background: #5788e9;
+    color: #fff;
+}
+
+.header-content a.btn.btn-outline:hover {
+    background: #f55685;
+    color: #fff;
+}
+.has-error .form-control:focus {
+    border-color: #ed1c24;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ed1c24;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ed1c24;
+}
+.has-success .form-control:focus {
+    border-color: #1bb934;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #1bb934;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+}

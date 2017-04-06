@@ -11,9 +11,10 @@
                 validators: {
                         stringLength: {
                         min: 2,
+                        message:'Introduceți cel puțin 2 caractere.'
                     },
                         notEmpty: {
-                        message: 'Please supply your first name'
+                        message: 'Furnizați prenumele dvs.'
                     }
                 }
             },
@@ -21,35 +22,23 @@
             email: {
                 validators: {
                     notEmpty: {
-                        message: 'Please supply your email address'
+                        message: 'Vă rugăm să furnizeze adresa de e-mail.'
                     },
                     emailAddress: {
-                        message: 'Please supply a valid email address'
+                        message: 'Vă rugăm să furnizați o adresă de e-mail validă.'
                     }
                 }
             },
             
-            address: {
-                validators: {
-                     stringLength: {
-                        min: 8,
-                    },
-                    notEmpty: {
-                        message: 'Please supply your street address'
-                    }
-                }
-            },
-           
-           
             comment: {
                 validators: {
                       stringLength: {
                         min: 10,
                         max: 200,
-                        message:'Please enter at least 10 characters and no more than 200'
+                        message:'Introduceți cel puțin 10 de caractere și nu mai mult de 200.'
                     },
                     notEmpty: {
-                        message: 'Please supply a description of your project'
+                        message: 'Vă rugăm să furnizați o descriere a proiectului.'
                     }
                     }
                 }
