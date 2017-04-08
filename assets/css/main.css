@@ -240,3 +240,17 @@ textarea.form-control {
 .contact-info {
     margin-bottom: 40px;
 }
+.col-md-10.send_mesage {
+    padding-left: 0;
+    padding-right: 0;
+}
+.tehnology_use {
+    font-size: 4em;
+}
+
+.tehnology_use a {
+    text-decoration: none;
+}
+.tehnology_use a:hover .colored {
+    color: #cacaca;
+}
